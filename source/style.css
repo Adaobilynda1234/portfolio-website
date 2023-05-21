@@ -1,0 +1,85 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.contact-list {
+  margin-top: 40px;
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+.about-list {
+  margin-top: 40px;
+  margin-left: 30px;
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.abt-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.contct-link {
+  color: white;
+  text-decoration: none;
+}
+.home-link {
+  text-align: center;
+  display: block;
+  margin-top: 50px;
+}
+.main-link {
+  display: flex;
+  justify-content: space-between;
+}
+.first-description {
+  background-color: var(--secondary-color);
+  margin: 10px;
+  padding: 20px;
+}
+.second-description {
+  background-color: var(--secondary-color);
+  margin: 10px;
+  padding: 20px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+a {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.btn-primary {
+  background: var(--primary-color) !important;
+  display: block;
+  margin: auto;
+}
